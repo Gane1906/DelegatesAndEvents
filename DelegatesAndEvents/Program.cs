@@ -7,8 +7,8 @@ namespace DelegatesAndEvents
     {
         static void Main(String[] args)
         {
-            MultiCastDelegate multiCastDelegate = new MultiCastDelegate();
-            multiCastDelegate.Run();
+            EventDemo eventDemo=new EventDemo();
+            eventDemo.Run();
         }
     }
 }
