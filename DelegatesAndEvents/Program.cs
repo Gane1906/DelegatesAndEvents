@@ -7,8 +7,8 @@ namespace DelegatesAndEvents
     {
         static void Main(String[] args)
         {
-            SingleCastDelegate singleCastDelegate=new SingleCastDelegate();
-            singleCastDelegate.Run();
+            MultiCastDelegate multiCastDelegate = new MultiCastDelegate();
+            multiCastDelegate.Run();
         }
     }
 }
