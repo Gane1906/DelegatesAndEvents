@@ -7,7 +7,8 @@ namespace DelegatesAndEvents
     {
         static void Main(String[] args)
         {
-            Console.WriteLine("Welcome to Delegates and events problem!");
+            SingleCastDelegate singleCastDelegate=new SingleCastDelegate();
+            singleCastDelegate.Run();
         }
     }
 }
